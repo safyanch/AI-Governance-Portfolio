@@ -31,4 +31,17 @@ A comprehensive transparency stack for a high-risk AI system launch into the EU 
     *   `FeedbackIQ_EU_AI_Act_Model_Card_and_Crosswalk.xlsx`
 
 ---
+
+## 📂 Artifact 3: EU AI Act Risk Classifier & Compliance Plan (TalentScope AI)
+**Framework:** EU AI Act (Regulation (EU) 2024/1689)  
+**Domain:** HR Tech / GenAI Recruitment Screening (High-Risk)
+
+An end-to-end compliance engine that translates the EU AI Act into executable Python logic and a project management remediation plan.
+
+*   **Python Risk Classifier:** A rule-based engine that evaluates AI system characteristics (sector, biometrics, foundation model status) to automatically assign risk tiers (Unacceptable, High-Risk, GPAI, Limited, Minimal) and output applicable Articles and required actions.
+*   **Enterprise Compliance Plan:** A 13-point remediation matrix for a High-Risk AI system, mapping legal requirements (Articles 9-15, 43, 49, 72, 73) to technical controls, identifying gaps (e.g., an 8% gender disparity), and assigning owners and deadlines to achieve conformity.
+*   **Files:** 
+    *   `EU_AI_Act_Risk_Classifier.html` (Interactive Notebook)
+    *   `TalentScope_EU_AI_Act_Compliance_Plan.xlsx` (Compliance Matrix)
+---
 *Author: Muhammad Safyan, PhD | Associate Professor of AI | AI Governance & Risk Management*
