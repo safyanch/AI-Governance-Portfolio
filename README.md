@@ -43,5 +43,12 @@ An end-to-end compliance engine that translates the EU AI Act into executable Py
 *   **Files:** 
     *   `EU_AI_Act_Risk_Classifier.html` (Interactive Notebook)
     *   `TalentScope_EU_AI_Act_Compliance_Plan.xlsx` (Compliance Matrix)
+
 ---
+## 📂 Artifact 4: MITRE ATLAS Threat Model (FinTrust IDV)
+*   **Framework:** MITRE ATLAS (Adversarial Threat Landscape for AI Systems)
+*   **Domain:** Fintech / Biometric KYC & Face-Match Identity Verification
+*   **Artifacts:** Threat register mapping 5 specific MITRE ATLAS TTPs (Deepfakes, API Extraction, Data Poisoning) to risk scores, named controls, and system owners; Executive Board Brief recommending a "Conditional Launch" based on deepfake bypass risks.
+*   **Key Finding:** Deepfake/Liveness Bypass (AML.T0015) scored as the highest risk (Score 20, Critical), requiring active liveness detection before deployment.
+
 *Author: Muhammad Safyan, PhD | Associate Professor of AI | AI Governance & Risk Management*
