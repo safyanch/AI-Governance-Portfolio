@@ -50,5 +50,12 @@ An end-to-end compliance engine that translates the EU AI Act into executable Py
 *   **Domain:** Fintech / Biometric KYC & Face-Match Identity Verification
 *   **Artifacts:** Threat register mapping 5 specific MITRE ATLAS TTPs (Deepfakes, API Extraction, Data Poisoning) to risk scores, named controls, and system owners; Executive Board Brief recommending a "Conditional Launch" based on deepfake bypass risks.
 *   **Key Finding:** Deepfake/Liveness Bypass (AML.T0015) scored as the highest risk (Score 20, Critical), requiring active liveness detection before deployment.
-
+## 📂 Artifact 5: AI Fairness & Bias Audit (UdaciBank Loan Model)
+*   **Framework:** Fairlearn, EEOC 4/5ths Rule, AIF360 concepts
+*   **Domain:** Fintech / Credit Scoring (High-Risk)
+*   **Artifacts:** Python Fairness Audit calculating Demographic Parity, Equalized Odds, and Equal Opportunity from scratch; a per-group threshold intervention; and a Before/After metrics visualization chart.
+*   **Key Finding:** The model failed Demographic Parity for race (0.792) and Equal Opportunity. While per-group thresholding fixed the DP ratio (0.999), it failed to fix Equalized Odds, resulting in a "Conditional Launch" recommendation requiring human-in-the-loop review for all loan denials.
+*   **Files:**
+    *   `UdaciBank_Fairness_Audit.html` (Interactive Notebook)
+    *   `fairness_metrics_chart.png` (Before/After Visualization)
 *Author: Muhammad Safyan, PhD | Associate Professor of AI | AI Governance & Risk Management*
